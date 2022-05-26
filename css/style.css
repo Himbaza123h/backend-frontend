@@ -1,0 +1,13 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    padding: 20px 30px;
+    block-size: inherit;
+    margin: top;
+    text-shadow: inherit;
+}
+.tutu{
+    margin-right: 20pxß;
+}
