@@ -12,7 +12,7 @@ section{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background: url(../img/lion.jpeg)no-repeat;
+    /* background: url(../img/lion.jpeg)no-repeat; */
     background-size: cover;
     background-position: center;
 }
@@ -40,7 +40,7 @@ header .navigation a{
     font-weight: 500;
     letter-spacing: 1px;
     padding: 2px 15px;
-    cursor: progress;
+    cursor: pointer;
     border-radius: 20px;
     transition: 0.3s;
     transition-property: background;
@@ -49,20 +49,21 @@ header .navigation a:not(:last-child){
     margin-right: 30px;
 }
 header .navigation a:hover{
-    background: #fff;
+    background: rgb(8, 55, 224);
 }
 .content{
     max-width: 650px;
     margin: 60px 100px;
 }
-.content .info h2{
+.content .info h4{
     color: #226A80;
-    font-size: 55px;
+    font-size: 35px;
     text-transform: uppercase;
     letter-spacing: 2px;
     
 }
-.content .info h2 span{
+
+.content .info h4 span{
     color: #fff;
     font-size: 55px;
     text-transform: uppercase;
