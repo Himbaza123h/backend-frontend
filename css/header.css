@@ -37,7 +37,7 @@ header .navigation a{
     font-weight: 500;
     letter-spacing: 1px;
     padding: 2px 15px;
-    cursor: progress;
+    cursor: pointer;
     border-radius: 20px;
     transition: 0.3s;
     transition-property: background;
@@ -47,4 +47,40 @@ header .navigation a:not(:last-child){
 }
 header .navigation a:hover{
     background: blue;
+}
+.footer{
+    position: fixed;
+    background-color:black ;
+    display: flex;
+    margin-top: 3px;
+    width: 100%;
+    min-height: auto;
+    color: white;
+    border-radius: 6px;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.logo{
+    position: center;
+    margin-top: 2px;
+    margin-left: 0%;
+}
+.logo h5{
+    position: center;
+    margin-top: 2px;
+    margin-left: 0%;
+    color: green;
+} 
+.logo a{
+    text-decoration: none;
+    cursor: cursor;
+    color:rgb(215, 145, 25);
+    font-style: inherit;
+    
+}
+.support{
+    margin-left:30%;
+    margin-top: 2px;
 }
